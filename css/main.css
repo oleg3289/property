@@ -1,0 +1,116 @@
+header .container-fluid{
+	background-image: url(../images/head.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+.logo img{
+	margin-top: 12px;
+}
+
+#menu {
+	margin-top: 120px;
+}
+#menu li{
+	display: block;
+	float: left;
+}
+#menu a{
+	background: rgba(0, 0, 0, 0.6);
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+
+	-webkit-transition: 0.75s;
+	-o-transition: 0.75s;
+	transition: 0.75s;
+}
+#menu a:hover{
+	color: #BBB;
+	background: rgba(0, 0, 0, 0.8)
+}
+
+
+
+#advantages span {
+	font-size: 8.2em;
+	color: white;
+}
+#advantages div>h2 {
+	font-size: 1.8em;
+	color: white;
+}
+
+#advantages .container-fluid {
+	background: linear-gradient(#666, #232323 4%, #232323 96%, #666 100%);
+	padding: 3.2em 0 2em 0;
+}
+
+#forClients .container-fluid{
+	background-color: #CCC;
+}
+#forClients .row{
+	padding: 7em 0 3em 0;
+}
+#forClients h1{
+	font-size: 4em;
+}
+#forClients p{
+	font-size: 1.3em;
+}
+
+.change {
+	position: absolute;
+	top: 48%;
+	font-size: 1.3em;
+}
+.carousel-caption {
+	font-size: 1.3em;
+}
+
+
+#clients {
+	padding: 6em 0 5em 0;
+	border-top: 1px solid #bbb;
+	margin-top: 7em;
+}
+#clients a {
+	padding: 15px;
+}
+#clients img {
+	max-width: 150px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+#clients img:hover {
+	transform: scale(1.1);
+}
+
+footer .container-fluid{
+	background: #232323;
+}
+footer p {
+	color: #bbb;
+}
+.tolink {
+	font-size: 4.2em;
+	color: darkgreen;
+}
+.tolink:hover {
+	color:#227120;
+}
+
+@media screen and (max-width: 600px){
+	.logo img {
+		height: 80px;
+	}
+	#menu li{
+		float: none;
+		margin:5px;
+	}
+}
